@@ -1,0 +1,198 @@
+{
+  "role": "FLEX",
+  "triangles": 40852,
+  "legs": 0,
+  "stairs": 0,
+  "motion": [],
+  "collapsed_length": 1.2,
+  "extended_length": 4,
+  "nodes": {
+    "node_stack_top": [
+      0.6,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2
+    ],
+    "node_stack_bottom": [
+      -0.6,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      2
+    ]
+  },
+  "end_face_refinement": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          0.6,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "dev18_equipment": {
+    "rcs": [
+      {
+        "root": "RW_RCSCluster_BottomRear",
+        "center": [
+          -0.525000023841858,
+          -0.9432804461028543,
+          -0.9432804461028543
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_BottomFront",
+        "center": [
+          -0.525000023841858,
+          -0.9432804461028543,
+          0.9432804461028543
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopRear",
+        "center": [
+          -0.525000023841858,
+          0.9432804461028543,
+          -0.9432804461028543
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopFront",
+        "center": [
+          -0.525000023841858,
+          0.9432804461028543,
+          0.9432804461028543
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "native_sha256": "e8d2594a311450bb7340c6185922cdc28a51a2e51b660431c07f25f2b0ef7e78",
+  "dev19_changes": {
+    "removed_rcs_clusters": 4
+  },
+  "dev20_changes": {
+    "overlap_sleeve_depth": 0.24,
+    "bellows_overlap_each_end": 0.09,
+    "outer_radius": 1.225,
+    "connected_motion": true
+  }
+}

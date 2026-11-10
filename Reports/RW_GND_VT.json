@@ -1,0 +1,23 @@
+{
+  "role": "VT",
+  "motion": [],
+  "dev18_equipment": {
+    "thrust_kn": 60,
+    "dry_mass_t": 0.6,
+    "wet_mass_t": 1.84,
+    "rcs": [],
+    "ports": 0
+  },
+  "dev19_changes": {
+    "removed_rcs_clusters": 0,
+    "thrust_kn": 90,
+    "dry_mass_t": 0.6,
+    "wet_mass_t": 2.6,
+    "fuel": 180,
+    "oxidizer": 220,
+    "monopropellant": 0,
+    "decoupler": "whole pod / surface node / outward impulse / engine shutdown"
+  },
+  "triangles": 1740,
+  "native_sha256": "d70c96f33d131837be60f70017806532b7c27efc0543338f9d08e9fe2f1fe282"
+}

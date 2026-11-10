@@ -1,0 +1,14 @@
+{
+  "id": "RW_GND_DRILL_Water",
+  "resource": "Water",
+  "code": "H2O",
+  "buffer_liters": 250,
+  "capacity_units": 250.0,
+  "efficiency": 3.75,
+  "color": [
+    35,
+    164,
+    190
+  ],
+  "map_records": 45
+}

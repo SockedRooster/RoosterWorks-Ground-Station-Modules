@@ -1,0 +1,413 @@
+{
+  "RW_GND_AIR": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.20000005,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.20000005,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 96
+  },
+  "RW_GND_CMD": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          0.860000014,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.860000014,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 96
+  },
+  "RW_GND_ELB": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.20000005,
+          0.0,
+          -0.899999976
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.899999976,
+          0.0,
+          1.20000005
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_END_250_125": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          0.45,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.45,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 240
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_GRN": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.79999995,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.79999995,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_HAB": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.98000002,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.98000002,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 96
+  },
+  "RW_GND_HUB": {
+    "ends": [
+      {
+        "name": "node_stack_right",
+        "center": [
+          2.0,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_left",
+        "center": [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_front",
+        "center": [
+          0.0,
+          0.0,
+          2.0
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "node_stack_back",
+        "center": [
+          0.0,
+          0.0,
+          -2.0
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 8,
+      "window": 192
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_LAB": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.98000002,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.98000002,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_LOG": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.5,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.5,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_PWR": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.20000005,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.20000005,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "RW_GND_TUB": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  }
+}

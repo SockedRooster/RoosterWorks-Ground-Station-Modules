@@ -1,0 +1,103 @@
+{
+  "installed_assemblies": {
+    "SystemHeat.dll": {
+      "sha256": "df09eca99dfebf937a9ff0b25298c876f8049605f8d242c3551d4fed46910eb6",
+      "assembly_name": "SystemHeat",
+      "types": [
+        "ModuleSystemHeat",
+        "ModuleSystemHeatHarvester"
+      ]
+    },
+    "zKerbalismSystemHeat.dll": {
+      "sha256": "17739cb97f3b52d150c7bb9612798e3d770c635f7ae5acaf5cfa95a19650c169",
+      "assembly_name": "zKerbalismSystemHeat",
+      "types": [
+        "SystemHeatHarvesterKerbalism"
+      ]
+    }
+  },
+  "drills": [
+    {
+      "id": "RW_GND_DRILL",
+      "resource": "Ore",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Lithium",
+      "resource": "Lithium",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_MetallicOre",
+      "resource": "MetallicOre",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_MetalOre",
+      "resource": "MetalOre",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Minerals",
+      "resource": "Minerals",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_RareMetals",
+      "resource": "RareMetals",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Rock",
+      "resource": "Rock",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Substrate",
+      "resource": "Substrate",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Uraninite",
+      "resource": "Uraninite",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    },
+    {
+      "id": "RW_GND_DRILL_Water",
+      "resource": "Water",
+      "power_ec_s": 7.5,
+      "heat_kw": 7.5,
+      "coolant_volume_m3": 0.25,
+      "shutdown_k": 650
+    }
+  ],
+  "power_conversion_kw_per_ec_s": 1,
+  "live_modmanager_and_game_acceptance_pending": true
+}

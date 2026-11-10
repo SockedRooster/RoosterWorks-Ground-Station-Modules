@@ -1,0 +1,66 @@
+[
+  {
+    "id": "RW_GND_NST",
+    "role": "NST",
+    "title": "Nuclear Materials Vault",
+    "dry_mass_t": 4.8,
+    "cost": 24000,
+    "capacities": {
+      "ElectricCharge": 500,
+      "Uraninite": 1000,
+      "RW_NuclearFeedstock": 500,
+      "EnrichedUranium": 200,
+      "DepletedFuel": 200
+    },
+    "recipe": null,
+    "motion_source": "RW_GND_PWR"
+  },
+  {
+    "id": "RW_GND_NSM",
+    "role": "NSM",
+    "title": "Nuclear Smelter",
+    "dry_mass_t": 5.5,
+    "cost": 36000,
+    "capacities": {
+      "ElectricCharge": 1000,
+      "Uraninite": 250,
+      "RW_NuclearFeedstock": 250
+    },
+    "recipe": {
+      "inputs": {
+        "Uraninite": 0.02,
+        "ElectricCharge": 60
+      },
+      "outputs": {
+        "RW_NuclearFeedstock": 0.01
+      },
+      "heat": 54
+    },
+    "motion_source": "RW_GND_PWR"
+  },
+  {
+    "id": "RW_GND_CEN",
+    "role": "CEN",
+    "title": "Fuel Centrifuge",
+    "dry_mass_t": 6.0,
+    "cost": 68000,
+    "capacities": {
+      "ElectricCharge": 1500,
+      "RW_NuclearFeedstock": 250,
+      "EnrichedUranium": 40,
+      "DepletedFuel": 200
+    },
+    "recipe": {
+      "inputs": {
+        "RW_NuclearFeedstock": 0.01,
+        "ElectricCharge": 120
+      },
+      "outputs": {
+        "EnrichedUranium": 0.0001,
+        "DepletedFuel": 0.0067
+      },
+      "heat": 108
+    },
+    "motion_source": "RW_GND_PWR"
+  }
+]

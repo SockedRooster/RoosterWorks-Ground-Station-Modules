@@ -1,0 +1,131 @@
+{
+  "dedicated": {
+    "Food": 1800,
+    "Water": 1700,
+    "Oxygen": 350000,
+    "Nitrogen": 200000,
+    "Ammonia": 40000,
+    "CarbonDioxide": 75000,
+    "Hydrogen": 750000
+  },
+  "fractions": {
+    "Food": 0.2,
+    "Water": 0.2,
+    "Oxygen": 0.2,
+    "Nitrogen": 0.1,
+    "Ammonia": 0.1,
+    "CarbonDioxide": 0.1,
+    "Hydrogen": 0.1
+  },
+  "mixed": {
+    "Food": 360,
+    "Water": 340,
+    "Oxygen": 70000,
+    "Nitrogen": 20000,
+    "Ammonia": 4000,
+    "CarbonDioxide": 7500,
+    "Hydrogen": 75000
+  },
+  "loadouts": {
+    "Mixed supplies": [
+      {
+        "name": "Food",
+        "amount": "360",
+        "maxAmount": "360"
+      },
+      {
+        "name": "Water",
+        "amount": "340",
+        "maxAmount": "340"
+      },
+      {
+        "name": "Oxygen",
+        "amount": "70000",
+        "maxAmount": "70000"
+      },
+      {
+        "name": "Nitrogen",
+        "amount": "20000",
+        "maxAmount": "20000"
+      },
+      {
+        "name": "Ammonia",
+        "amount": "4000",
+        "maxAmount": "4000"
+      },
+      {
+        "name": "CarbonDioxide",
+        "amount": "7500",
+        "maxAmount": "7500"
+      },
+      {
+        "name": "Hydrogen",
+        "amount": "75000",
+        "maxAmount": "75000"
+      }
+    ],
+    "Food": [
+      {
+        "name": "Food",
+        "amount": "1800",
+        "maxAmount": "1800"
+      }
+    ],
+    "Water": [
+      {
+        "name": "Water",
+        "amount": "1700",
+        "maxAmount": "1700"
+      }
+    ],
+    "Oxygen": [
+      {
+        "name": "Oxygen",
+        "amount": "350000",
+        "maxAmount": "350000"
+      }
+    ],
+    "Nitrogen": [
+      {
+        "name": "Nitrogen",
+        "amount": "200000",
+        "maxAmount": "200000"
+      }
+    ],
+    "Ammonia": [
+      {
+        "name": "Ammonia",
+        "amount": "40000",
+        "maxAmount": "40000"
+      }
+    ],
+    "Carbon Dioxide": [
+      {
+        "name": "CarbonDioxide",
+        "amount": "75000",
+        "maxAmount": "75000"
+      }
+    ],
+    "Hydrogen": [
+      {
+        "name": "Hydrogen",
+        "amount": "750000",
+        "maxAmount": "750000"
+      }
+    ],
+    "Waste": [
+      {
+        "name": "Waste",
+        "amount": "0",
+        "maxAmount": "520"
+      }
+    ],
+    "WasteWater": [
+      {
+        "name": "WasteWater",
+        "amount": "0",
+        "maxAmount": "520"
+      }
+    ]
+  }
+}

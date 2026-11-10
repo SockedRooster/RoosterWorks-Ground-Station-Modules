@@ -1,0 +1,31 @@
+namespace UnityEngine {
+ public struct Vector3 {public float x,y,z;public Vector3(float x,float y,float z){this.x=x;this.y=y;this.z=z;}public static Vector3 zero{get{return new Vector3();}}public static Vector3 operator+(Vector3 a,Vector3 b){return new Vector3(a.x+b.x,a.y+b.y,a.z+b.z);}public static Vector3 operator-(Vector3 a,Vector3 b){return new Vector3(a.x-b.x,a.y-b.y,a.z-b.z);}public static float Distance(Vector3 a,Vector3 b){var c=a-b;return (float)Math.Sqrt(c.x*c.x+c.y*c.y+c.z*c.z);}}
+ public class Transform {public Transform parent;public float xSign=1;public Vector3 localPosition,localScale=new Vector3(1,1,1);public Vector3 position{get{return parent==null?localPosition:parent.TransformPoint(localPosition);}set{localPosition=parent==null?value:parent.InverseTransformVector(value-parent.position);}}public Vector3 TransformVector(Vector3 v){var r=new Vector3(v.x*xSign,v.y,v.z);return parent==null?r:parent.TransformVector(r);}public Vector3 InverseTransformVector(Vector3 v){if(parent!=null)v=parent.InverseTransformVector(v);return new Vector3(v.x*xSign,v.y,v.z);}public Vector3 TransformPoint(Vector3 v){return position+TransformVector(v);}public Vector3 InverseTransformPoint(Vector3 v){return InverseTransformVector(v-position);}}
+ public class Rigidbody {public Transform transform;public bool isKinematic;public int wakes;public void WakeUp(){wakes++;}}
+ public enum ConfigurableJointMotion {Locked,Limited,Free}
+ public enum JointProjectionMode {None,PositionAndRotation}
+ public class ConfigurableJoint {public Rigidbody host,connectedBody;public ConfigurableJointMotion xMotion=ConfigurableJointMotion.Limited,yMotion=ConfigurableJointMotion.Limited,zMotion=ConfigurableJointMotion.Limited,angularXMotion=ConfigurableJointMotion.Limited,angularYMotion=ConfigurableJointMotion.Limited,angularZMotion=ConfigurableJointMotion.Limited;public JointProjectionMode projectionMode;public float projectionDistance,projectionAngle;public bool autoConfigureConnectedAnchor=true;public Vector3 anchor,connectedAnchor;public T GetComponent<T>() where T:class{return host as T;}}
+ public static class Mathf {public static float Max(float a,float b){return Math.Max(a,b);}public static float Clamp01(float v){return Math.Max(0,Math.Min(1,v));}public static float MoveTowards(float a,float b,float step){return Math.Abs(a-b)<=step?b:a+Math.Sign(b-a)*step;}}
+ public static class Time {public static float deltaTime=.02f,fixedDeltaTime=.02f;}
+}
+public class KSPField:Attribute {public bool isPersistant,guiActive,guiActiveEditor;public string guiName,guiFormat,guiUnits;}
+public class UI_FloatRange:Attribute {public float minValue,maxValue,stepIncrement;}
+public class KSPEvent:Attribute {public bool guiActive,guiActiveEditor;public string guiName;}
+public class KSPAction:Attribute {public KSPAction(string n){}}
+public class KSPActionParam {}public class ConfigNode {}public enum StartState {None}
+public class Control {public bool active,guiActive,guiActiveEditor;}
+public class EventList:Dictionary<string,Control>{public bool Contains(string n){return ContainsKey(n);}}
+public class PartModule {public Part part;public Vessel vessel{get{return part==null?null:part.vessel;}}public EventList Events=new EventList{{"Extend",new Control()},{"Collapse",new Control()}};public virtual void OnLoad(ConfigNode n){}public virtual void OnSave(ConfigNode n){}public virtual void OnStart(StartState s){}public virtual void OnStartFinished(StartState s){}public virtual string GetInfo(){return "";}}
+public class ModuleDockingNode:PartModule {public string referenceAttachNode,nodeTransformName,state="Ready";public uint dockedPartUId;public ModuleDockingNode otherNode;}
+public class PartJoint {public float force=350,torque=350;public int strengthCalls;public void SetBreakingForces(float f,float t){force=f;torque=t;strengthCalls++;}public List<UnityEngine.ConfigurableJoint> joints=new List<UnityEngine.ConfigurableJoint>();}
+public class AttachNode {public Part attachedPart;public UnityEngine.Vector3 position,originalPosition;}
+public class Part {public UnityEngine.Vector3 orgPos;public void UpdateOrgPosAndRot(Part root){orgPos=root.transform.InverseTransformPoint(transform.position);}public uint flightID;public Part parent;public List<Part> children=new List<Part>();public Vessel vessel=new Vessel();public UnityEngine.Transform transform=new UnityEngine.Transform();public UnityEngine.Rigidbody Rigidbody;public PartJoint attachJoint;public Dictionary<string,UnityEngine.Transform> transforms=new Dictionary<string,UnityEngine.Transform>();public Dictionary<string,AttachNode> nodes=new Dictionary<string,AttachNode>();public List<PartModule> modules=new List<PartModule>();public Part(){Rigidbody=new UnityEngine.Rigidbody{transform=transform};}public UnityEngine.Transform FindModelTransform(string n){return n!=null&&transforms.ContainsKey(n)?transforms[n]:null;}public AttachNode FindAttachNode(string n){return nodes.ContainsKey(n)?nodes[n]:null;}public AttachNode FindAttachNodeByPart(Part p){foreach(var n in nodes.Values)if(n.attachedPart==p)return n;return null;}public List<T> FindModulesImplementing<T>(){var list=new List<T>();foreach(var m in modules)if(m is T)list.Add((T)(object)m);return list;}}
+public class Precalc {public bool isEasingGravity;}
+public class Vessel {public Part rootPart;public Precalc precalc;public bool loaded=true,packed;public List<Part> parts=new List<Part>();}
+public static class HighLogic {public static bool LoadedSceneIsEditor,LoadedSceneIsFlight=true;}
+public static class TimeWarp {public static int CurrentRateIndex;}
+public static class ModuleRWGroundTether {public static int releases;public static void ReleaseForVessel(Vessel v,string reason){releases++;}}
+public class EditorLogic {public static EditorLogic fetch=new EditorLogic();public object ship=new object();}
+public class EditorEvent {public int calls;public void Fire(object s){calls++;}}
+public class VesselEvent {public event Action<Vessel> Handlers;public void Add(Action<Vessel> f){Handlers+=f;}public void Remove(Action<Vessel> f){Handlers-=f;}public void Fire(Vessel v){if(Handlers!=null)Handlers(v);}}
+public static class GameEvents {public static VesselEvent onVesselGoOnRails=new VesselEvent(),onVesselGoOffRails=new VesselEvent();public static EditorEvent onEditorShipModified=new EditorEvent();}

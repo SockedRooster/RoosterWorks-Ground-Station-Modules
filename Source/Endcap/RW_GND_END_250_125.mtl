@@ -1,0 +1,56 @@
+newmtl RW_GroundEndcap_ceramic
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_ceramic.png
+
+newmtl RW_GroundEndcap_white
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_white.png
+
+newmtl RW_GroundEndcap_steel
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_steel.png
+
+newmtl RW_GroundEndcap_graphite
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_graphite.png
+
+newmtl RW_GroundEndcap_bronze
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_bronze.png
+
+newmtl RW_GroundEndcap_black
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_black.png
+
+newmtl RW_GroundEndcap_rail
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_rail.png
+
+newmtl RW_GroundEndcap_crest
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_crest.png
+
+newmtl RW_GroundEndcap_hubblanket
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_hubblanket.png
+
+newmtl RW_GroundEndcap_detail
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_detail.png
+
+newmtl RW_GroundEndcap_cladding
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_cladding.png
+
+newmtl RW_GroundEndcap_cladding_white
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_cladding_white.png
+
+newmtl RW_GroundEndcap_gnd_endlabel
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_gnd_endlabel.png
+
+newmtl RW_EndWindowGlass
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_endwindow.png
+

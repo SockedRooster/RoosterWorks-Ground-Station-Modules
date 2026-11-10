@@ -1,0 +1,24 @@
+{
+  "retained_distributions": [
+    "0.8.0-dev.26",
+    "0.8.0-dev.25"
+  ],
+  "historical_source_dependencies_retained": true,
+  "removed": [
+    {
+      "path": "outputs/RoosterWorks-Ground-Modules-v0.8.0-dev.24-HOT-PATCH.zip",
+      "bytes": 30958125,
+      "sha256": "ee99c590f46c9152f0b6eb7e0a53b883064e5551e8e86d7104fcee1599d38ef9"
+    },
+    {
+      "path": "outputs/RoosterWorks-Ground-Modules-v0.8.0-dev.24-HotPatch-Source.zip",
+      "bytes": 184687590,
+      "sha256": "fa44b69d5e89a342c4dce850f271297da366afe08e84208da0db4c2d09b4fc7a"
+    },
+    {
+      "path": "outputs/RoosterWorks-Ground-Modules-v0.8.0-dev.24-SHA256SUMS.txt",
+      "bytes": 252,
+      "sha256": "1303cedc91e8fd0333e1b917cf53991c99b4bf0717ac6aabf9f69862c45c3c2e"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "role": "GRN",
+  "source_blend_sha256": "8e8e84331469384f4c1c2bc725d894a459d2ad85c96971efc4f0d0ef22d75ddc",
+  "objects": 159,
+  "triangles": 41370,
+  "inheritance_winding_corrected": true,
+  "emissive_renderers": [
+    "RW_GreenhouseInspectionLamps",
+    "RW_GreenhouseLamps"
+  ],
+  "mechanical_colliders": 16,
+  "legs": 4,
+  "stairs": 0,
+  "removed_middle_leg_objects": [
+    "Leg 02 | hull saddle",
+    "Leg 02 | pivot pin",
+    "Pivot keeper.004",
+    "Pivot keeper.005",
+    "Leg 02 | upper pressure sleeve",
+    "Leg 02 | polished ram",
+    "Seal collar.006",
+    "Seal collar.007",
+    "Seal collar.008",
+    "Copper compression ring.004",
+    "Copper compression ring.005",
+    "Anti rotation guide.002",
+    "Torque-link clevis.002",
+    "Hydraulic hose.002",
+    "Foot swivel.002",
+    "Wide load-spreading pad.002",
+    "Replaceable pad plate.002",
+    "Foot bronze perimeter.002",
+    "Captive hex fastener.016",
+    "Captive hex fastener.017",
+    "Captive hex fastener.018",
+    "Captive hex fastener.019",
+    "Captive hex fastener.020",
+    "Captive hex fastener.021",
+    "Captive hex fastener.022",
+    "Captive hex fastener.023",
+    "Pad radial traction lug.008",
+    "Pad radial traction lug.009",
+    "Pad radial traction lug.010",
+    "Pad radial traction lug.011",
+    "Leg 03 | hull saddle",
+    "Leg 03 | pivot pin",
+    "Pivot keeper.006",
+    "Pivot keeper.007",
+    "Leg 03 | upper pressure sleeve",
+    "Leg 03 | polished ram",
+    "Seal collar.009",
+    "Seal collar.010",
+    "Seal collar.011",
+    "Copper compression ring.006",
+    "Copper compression ring.007",
+    "Anti rotation guide.003",
+    "Torque-link clevis.003",
+    "Hydraulic hose.003",
+    "Foot swivel.003",
+    "Wide load-spreading pad.003",
+    "Replaceable pad plate.003",
+    "Foot bronze perimeter.003",
+    "Captive hex fastener.024",
+    "Captive hex fastener.025",
+    "Captive hex fastener.026",
+    "Captive hex fastener.027",
+    "Captive hex fastener.028",
+    "Captive hex fastener.029",
+    "Captive hex fastener.030",
+    "Captive hex fastener.031",
+    "Pad radial traction lug.012",
+    "Pad radial traction lug.013",
+    "Pad radial traction lug.014",
+    "Pad radial traction lug.015"
+  ],
+  "stair_clearance": {},
+  "refinements": {
+    "handrail_reduction": 0.12,
+    "greenhouse_leg_shift": 0.26,
+    "extended_pipes": [
+      {
+        "object": "Protected underfloor service pipe",
+        "half": 1.7999999475479127
+      },
+      {
+        "object": "Protected underfloor service pipe.001",
+        "half": 1.7999999475479127
+      },
+      {
+        "object": "Protected underfloor service pipe.002",
+        "half": 1.7999999475479127
+      },
+      {
+        "object": "Protected underfloor service pipe.003",
+        "half": 1.7999999475479127
+      }
+    ],
+    "removed_roof_objects": [
+      "Roof heat exchanger",
+      "Radiator fin",
+      "Radiator fin.001",
+      "Radiator fin.002",
+      "Radiator fin.003",
+      "Radiator fin.004",
+      "Radiator fin.005",
+      "Radiator fin.006",
+      "Radiator fin.007",
+      "Radiator fin.008",
+      "Roof heat exchanger.001",
+      "Radiator fin.009",
+      "Radiator fin.010",
+      "Radiator fin.011",
+      "Radiator fin.012",
+      "Radiator fin.013",
+      "Radiator fin.014",
+      "Radiator fin.015",
+      "Radiator fin.016",
+      "Radiator fin.017"
+    ]
+  },
+  "motion": [
+    {
+      "name": "RW_GroundLeg00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "retractPosition": [
+        0.05835866928100586,
+        0.6879491806030273,
+        -0.20425541698932648
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate"
+    },
+    {
+      "name": "RW_GroundLeg01",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "retractPosition": [
+        0.05835874006152153,
+        0.6879491806030273,
+        0.20425540208816528
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.001"
+    },
+    {
+      "name": "RW_GroundLeg04",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "retractPosition": [
+        -0.05835866928100586,
+        0.6879491806030273,
+        -0.20425541698932648
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.004"
+    },
+    {
+      "name": "RW_GroundLeg05",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "retractPosition": [
+        -0.0583588071167469,
+        0.6879490613937378,
+        0.20425543189048767
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.005"
+    }
+  ],
+  "rig_members": {
+    "Leg 00 | polished ram": "RW_GroundLeg00",
+    "Leg 01 | polished ram": "RW_GroundLeg01",
+    "Leg 04 | polished ram": "RW_GroundLeg04",
+    "Leg 05 | polished ram": "RW_GroundLeg05",
+    "Anti rotation guide": "RW_GroundLeg00",
+    "Torque-link clevis": "RW_GroundLeg00",
+    "Hydraulic hose": "RW_GroundLeg00",
+    "Foot swivel": "RW_GroundLeg00",
+    "Wide load-spreading pad": "RW_GroundLeg00",
+    "Replaceable pad plate": "RW_GroundLeg00",
+    "Foot bronze perimeter": "RW_GroundLeg00",
+    "Captive hex fastener": "RW_GroundLeg00",
+    "Captive hex fastener.001": "RW_GroundLeg00",
+    "Captive hex fastener.002": "RW_GroundLeg00",
+    "Captive hex fastener.003": "RW_GroundLeg00",
+    "Captive hex fastener.004": "RW_GroundLeg00",
+    "Captive hex fastener.005": "RW_GroundLeg00",
+    "Captive hex fastener.006": "RW_GroundLeg00",
+    "Captive hex fastener.007": "RW_GroundLeg00",
+    "Pad radial traction lug": "RW_GroundLeg00",
+    "Pad radial traction lug.001": "RW_GroundLeg00",
+    "Pad radial traction lug.002": "RW_GroundLeg00",
+    "Pad radial traction lug.003": "RW_GroundLeg00",
+    "Anti rotation guide.001": "RW_GroundLeg01",
+    "Torque-link clevis.001": "RW_GroundLeg01",
+    "Hydraulic hose.001": "RW_GroundLeg01",
+    "Foot swivel.001": "RW_GroundLeg01",
+    "Wide load-spreading pad.001": "RW_GroundLeg01",
+    "Replaceable pad plate.001": "RW_GroundLeg01",
+    "Foot bronze perimeter.001": "RW_GroundLeg01",
+    "Captive hex fastener.008": "RW_GroundLeg01",
+    "Captive hex fastener.009": "RW_GroundLeg01",
+    "Captive hex fastener.010": "RW_GroundLeg01",
+    "Captive hex fastener.011": "RW_GroundLeg01",
+    "Captive hex fastener.012": "RW_GroundLeg01",
+    "Captive hex fastener.013": "RW_GroundLeg01",
+    "Captive hex fastener.014": "RW_GroundLeg01",
+    "Captive hex fastener.015": "RW_GroundLeg01",
+    "Pad radial traction lug.004": "RW_GroundLeg01",
+    "Pad radial traction lug.005": "RW_GroundLeg01",
+    "Pad radial traction lug.006": "RW_GroundLeg01",
+    "Pad radial traction lug.007": "RW_GroundLeg01",
+    "Anti rotation guide.004": "RW_GroundLeg04",
+    "Torque-link clevis.004": "RW_GroundLeg04",
+    "Hydraulic hose.004": "RW_GroundLeg04",
+    "Foot swivel.004": "RW_GroundLeg04",
+    "Wide load-spreading pad.004": "RW_GroundLeg04",
+    "Replaceable pad plate.004": "RW_GroundLeg04",
+    "Foot bronze perimeter.004": "RW_GroundLeg04",
+    "Captive hex fastener.032": "RW_GroundLeg04",
+    "Captive hex fastener.033": "RW_GroundLeg04",
+    "Captive hex fastener.034": "RW_GroundLeg04",
+    "Captive hex fastener.035": "RW_GroundLeg04",
+    "Captive hex fastener.036": "RW_GroundLeg04",
+    "Captive hex fastener.037": "RW_GroundLeg04",
+    "Captive hex fastener.038": "RW_GroundLeg04",
+    "Captive hex fastener.039": "RW_GroundLeg04",
+    "Pad radial traction lug.016": "RW_GroundLeg04",
+    "Pad radial traction lug.017": "RW_GroundLeg04",
+    "Pad radial traction lug.018": "RW_GroundLeg04",
+    "Pad radial traction lug.019": "RW_GroundLeg04",
+    "Anti rotation guide.005": "RW_GroundLeg05",
+    "Torque-link clevis.005": "RW_GroundLeg05",
+    "Hydraulic hose.005": "RW_GroundLeg05",
+    "Foot swivel.005": "RW_GroundLeg05",
+    "Wide load-spreading pad.005": "RW_GroundLeg05",
+    "Replaceable pad plate.005": "RW_GroundLeg05",
+    "Foot bronze perimeter.005": "RW_GroundLeg05",
+    "Captive hex fastener.040": "RW_GroundLeg05",
+    "Captive hex fastener.041": "RW_GroundLeg05",
+    "Captive hex fastener.042": "RW_GroundLeg05",
+    "Captive hex fastener.043": "RW_GroundLeg05",
+    "Captive hex fastener.044": "RW_GroundLeg05",
+    "Captive hex fastener.045": "RW_GroundLeg05",
+    "Captive hex fastener.046": "RW_GroundLeg05",
+    "Captive hex fastener.047": "RW_GroundLeg05",
+    "Pad radial traction lug.020": "RW_GroundLeg05",
+    "Pad radial traction lug.021": "RW_GroundLeg05",
+    "Pad radial traction lug.022": "RW_GroundLeg05",
+    "Pad radial traction lug.023": "RW_GroundLeg05"
+  },
+  "hose_bounds": {
+    "Hydraulic hose": [
+      [
+        -1.8771440982818604,
+        -1.787643551826477,
+        0.8615979552268982
+      ],
+      [
+        -1.649548888206482,
+        -0.8098882436752319,
+        1.2254698276519775
+      ]
+    ],
+    "Hydraulic hose.001": [
+      [
+        -1.8784538507461548,
+        -1.788784384727478,
+        -1.201345682144165
+      ],
+      [
+        -1.6475841999053955,
+        -0.8154230117797852,
+        -0.8596888780593872
+      ]
+    ],
+    "Hydraulic hose.004": [
+      [
+        1.349071741104126,
+        -1.788888692855835,
+        0.8620918989181519
+      ],
+      [
+        1.6701388359069824,
+        -0.8104207515716553,
+        1.2250463962554932
+      ]
+    ],
+    "Hydraulic hose.005": [
+      [
+        1.349725365638733,
+        -1.788895606994629,
+        -1.201011061668396
+      ],
+      [
+        1.6724002361297607,
+        -0.8180609941482544,
+        -0.8591216802597046
+      ]
+    ]
+  },
+  "foot_bounds": {
+    "RW_GroundLeg00": [
+      [
+        -2.0390000343322754,
+        -2.2300000190734863,
+        0.9549998641014099
+      ],
+      [
+        -1.3489999771118164,
+        -2.190000057220459,
+        1.6449999809265137
+      ]
+    ],
+    "RW_GroundLeg01": [
+      [
+        -2.0390000343322754,
+        -2.2300000190734863,
+        -1.6449999809265137
+      ],
+      [
+        -1.3489999771118164,
+        -2.190000057220459,
+        -0.9549999237060547
+      ]
+    ],
+    "RW_GroundLeg04": [
+      [
+        1.3489999771118164,
+        -2.2300000190734863,
+        0.9549999237060547
+      ],
+      [
+        2.0390000343322754,
+        -2.190000057220459,
+        1.6449999809265137
+      ]
+    ],
+    "RW_GroundLeg05": [
+      [
+        1.3489999771118164,
+        -2.2300000190734863,
+        -1.6449999809265137
+      ],
+      [
+        2.0390000343322754,
+        -2.190000057220459,
+        -0.9549998641014099
+      ]
+    ]
+  },
+  "window_triangles_expected": 0,
+  "window_triangles_removed": 0,
+  "label_triangles_removed": 672,
+  "dish_backfaces": 0,
+  "service_paths": [],
+  "replaced_greenhouse_interior_triangles": 19456,
+  "draw_calls": 53,
+  "native_sha256": "3d0f88e99eb30261a4a3edbbf8bddcdd81f6bd87dc3e33d6970494fa382dd20e",
+  "nodes": {
+    "node_stack_top": [
+      1.7999999523162842,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      2
+    ],
+    "node_stack_bottom": [
+      -1.7999999523162842,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      2
+    ]
+  },
+  "docking_ports": [
+    {
+      "attachNode": "top",
+      "transform": "RW_Dock_top",
+      "position": [
+        1.7999999523162842,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "attachNode": "bottom",
+      "transform": "RW_Dock_bottom",
+      "position": [
+        -1.7999999523162842,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "roof_rail_sockets": [
+    {
+      "center": [
+        -1.5999999046325684,
+        0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        1.5999999046325684,
+        0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        -1.5999999046325684,
+        -0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        1.5999999046325684,
+        -0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    }
+  ],
+  "end_face_refinement": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          1.79999995,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -1.79999995,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  },
+  "dev18_equipment": {
+    "rcs": [
+      {
+        "root": "RW_RCSCluster_BottomRear",
+        "center": [
+          -1.61999995,
+          -0.9758073580374355,
+          -0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_BottomFront",
+        "center": [
+          -1.61999995,
+          -0.9758073580374355,
+          0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopRear",
+        "center": [
+          -1.61999995,
+          0.9758073580374355,
+          -0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopFront",
+        "center": [
+          -1.61999995,
+          0.9758073580374355,
+          0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "dev19_changes": {
+    "removed_rcs_clusters": 4
+  }
+}

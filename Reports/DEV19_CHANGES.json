@@ -1,0 +1,53 @@
+{
+  "RW_GND_AIR": {
+    "removed_rcs_clusters": 4,
+    "light": "explicit ForcePixel spot / cabin linked by default / 0.03 EC/s"
+  },
+  "RW_GND_CMD": {
+    "removed_rcs_clusters": 4,
+    "light": "explicit ForcePixel spot / cabin linked by default / 0.03 EC/s"
+  },
+  "RW_GND_ELB": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_END_250_125": {
+    "removed_rcs_clusters": 4,
+    "endcap_rotation": "180 degrees about upright Y; large structural rear and small docking nose turn together"
+  },
+  "RW_GND_FLEX": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_GRN": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_HAB": {
+    "removed_rcs_clusters": 4,
+    "hab_badge_vertices_turned_180": 96,
+    "light": "explicit ForcePixel spot / cabin linked by default / 0.03 EC/s"
+  },
+  "RW_GND_HUB": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_LAB": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_LOG": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_PWR": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_TUB": {
+    "removed_rcs_clusters": 4
+  },
+  "RW_GND_VT": {
+    "removed_rcs_clusters": 0,
+    "thrust_kn": 90,
+    "dry_mass_t": 0.6,
+    "wet_mass_t": 2.6,
+    "fuel": 180,
+    "oxidizer": 220,
+    "monopropellant": 0,
+    "decoupler": "whole pod / surface node / outward impulse / engine shutdown"
+  }
+}

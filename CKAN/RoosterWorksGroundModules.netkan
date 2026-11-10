@@ -1,0 +1,39 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "RoosterWorksGroundModules",
+  "name": "RoosterWorks Ground Modules",
+  "author": "SockedRooster",
+  "license": "MIT",
+  "abstract": "Surface base modules, adjustable supports, crew tubes and ground industry.",
+  "ksp_version": "1.12.5",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "RoosterWorksStationModules"
+    }
+  ],
+  "recommends": [
+    {
+      "name": "RoosterWorksStationSupport"
+    },
+    {
+      "name": "InflataDepot"
+    }
+  ],
+  "install": [
+    {
+      "find": "RoosterWorksGroundModules",
+      "install_to": "GameData"
+    }
+  ],
+  "resources": {
+    "repository": "https://github.com/SockedRooster/RoosterWorks-Ground-Station-Modules"
+  },
+  "$kref": "#/ckan/github/SockedRooster/RoosterWorks-Ground-Station-Modules/asset_match/^RoosterWorks-Ground-Modules-v[0-9]+[.][0-9]+[.][0-9]+[.]zip$",
+  "x_netkan_version_edit": {
+    "find": "^[vV](?<version>.*)$",
+    "replace": "${version}"
+  }
+}

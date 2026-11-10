@@ -1,0 +1,62 @@
+{
+  "id": "RW_GND_HPT",
+  "length_m": 1.2,
+  "nominal_diameter_m": 2.5,
+  "flat_mounts": {
+    "port": [
+      0,
+      0,
+      1.25
+    ],
+    "starboard": [
+      0,
+      0,
+      -1.25
+    ]
+  },
+  "flat_face_size_m": [
+    0.7,
+    0.88
+  ],
+  "legs": 0,
+  "crew": 0,
+  "docking_ports": 2,
+  "side_ports_structural_only": true,
+  "mass_t": 1.0,
+  "breaking_force_torque": 2000,
+  "end_face_refinement": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          0.6,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 0
+  }
+}

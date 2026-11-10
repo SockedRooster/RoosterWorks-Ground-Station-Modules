@@ -1,0 +1,566 @@
+{
+  "RW_GND_ISRU": {
+    "converters": 4,
+    "ore_buffer": 300,
+    "electric_charge": 1000,
+    "dry_mass_t": 5.25,
+    "stock_conversion_rates": true,
+    "external_active_radiators_required": true,
+    "motion_source": "RW_GND_PWR",
+    "docking_ports": 2
+  },
+  "RW_GND_DRILL": {
+    "stock_model_reference": "Squad/Parts/Resources/RadialDrill/TriBitDrill",
+    "no_stock_asset_redistribution": true,
+    "stock_deploy_animation": "Drill_Deploy",
+    "stock_run_animation": "Drill_Running",
+    "stock_model_rotation": [
+      0,
+      90,
+      0
+    ],
+    "stock_model_translation": [
+      0,
+      0,
+      0.05
+    ],
+    "stock_model_scale": 0.5,
+    "ore_buffer": 50,
+    "ec_per_second": 7.5,
+    "dry_mass_t": 0.65,
+    "docking_ports": 0
+  },
+  "RW_GND_MOUNT": {
+    "dry_mass_t": 0.025,
+    "surface_attach": true,
+    "equipment_plane": 0.11,
+    "docking_ports": 0
+  },
+  "hull_mounts": {
+    "RW_GND_HAB": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.86500002,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.86500002,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.86500002,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.86500002,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_LAB": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.86500002,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.86500002,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.86500002,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.86500002,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_CMD": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -0.9600000200000001,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -0.9600000200000001,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          0.9600000200000001,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          0.9600000200000001,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_LOG": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.385,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.385,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.385,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.385,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_GRN": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.68499995,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.68499995,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.68499995,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.68499995,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_AIR": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.08500005,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.08500005,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_PWR": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -1.08500005,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          1.08500005,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_TUB": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -0.885,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_a",
+        "position": [
+          -0.885,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          0.885,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_starboard_b",
+        "position": [
+          0.885,
+          0,
+          -1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "size": 1
+      }
+    ],
+    "RW_GND_ISRU": [
+      {
+        "name": "equipment_port_a",
+        "position": [
+          -1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      },
+      {
+        "name": "equipment_port_b",
+        "position": [
+          1.08500005,
+          0,
+          1.3350000000000002
+        ],
+        "outward": [
+          0,
+          0,
+          1
+        ],
+        "size": 1
+      }
+    ]
+  },
+  "attachment_audit": {
+    "accepts_surface_attachment": {
+      "RW_GND_AIR": "1,0,1,1,0",
+      "RW_GND_CMD": "1,0,1,1,0",
+      "RW_GND_DRILL": "1,1,1,1,0",
+      "RW_GND_ELB": "1,0,1,1,0",
+      "RW_GND_END_250_125": "1,0,1,1,0",
+      "RW_GND_FLEX": "1,0,1,1,0",
+      "RW_GND_GRN": "1,0,1,1,0",
+      "RW_GND_HAB": "1,0,1,1,0",
+      "RW_GND_HUB": "1,0,1,1,0",
+      "RW_GND_ISRU": "1,0,1,1,0",
+      "RW_GND_LAB": "1,0,1,1,0",
+      "RW_GND_LOG": "1,0,1,1,0",
+      "RW_GND_MOUNT": "1,1,1,1,0",
+      "RW_GND_PWR": "1,0,1,1,0",
+      "RW_GND_TUB": "1,0,1,1,0",
+      "RW_GND_VT": "0,1,0,1,0"
+    },
+    "fixed_snap_points": 34,
+    "excluded_from_fixed_pads": [
+      "HUB (junction skin)",
+      "ELB (curved junction)",
+      "FLEX (moving bellows)",
+      "END_250_125 (tapered shoulder)",
+      "VT (equipment)"
+    ],
+    "universal_shoe_for_other_clear_rigid_surfaces": true,
+    "existing_docking_nodes_unchanged": true,
+    "existing_flight_parts_not_migrated": true
+  }
+}

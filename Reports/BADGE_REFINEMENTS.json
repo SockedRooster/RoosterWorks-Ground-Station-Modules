@@ -1,0 +1,29 @@
+{
+  "PWR": [
+    {
+      "path": "/RW_GND_PWR/GND_RW_Ground_bronze_1_0",
+      "material": "rwm_bronze",
+      "vertices": 72,
+      "rotation_down_degrees": 35
+    },
+    {
+      "path": "/RW_GND_PWR/GND_RW_Ground_graphite_7_0",
+      "material": "rwm_graphite",
+      "vertices": 72,
+      "rotation_down_degrees": 35
+    },
+    {
+      "path": "/RW_GND_PWR/GND_RW_Ground_pwrlabel_21_0",
+      "material": "rwm_pwrlabel",
+      "vertices": 72,
+      "rotation_down_degrees": 35
+    }
+  ],
+  "ELB": [
+    {
+      "path": "/RW_GND_ELB/GND_RW_Ground_crest_5_0",
+      "rotation_clockwise_degrees": 270,
+      "vertices": 1308
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "role": "CMD",
+  "source_blend_sha256": "fe36a0271bcf40a5fdfc4e20e3a026b7a2be5f84c19afeceb7274a0dc33ed80a",
+  "objects": 276,
+  "triangles": 58058,
+  "inheritance_winding_corrected": true,
+  "emissive_renderers": [
+    "GND_RW_GroundHardware_warm_glass_19_0",
+    "GND_RW_Ground_glass_21_0"
+  ],
+  "mechanical_colliders": 28,
+  "legs": 4,
+  "stairs": 8,
+  "removed_middle_leg_objects": [],
+  "stair_clearance": {
+    "width": 1.21,
+    "rail_center_half_width": 0.64,
+    "changed_objects": [
+      "Access landing",
+      "Stair tread 00",
+      "Tread anti slip rib",
+      "Tread anti slip rib.001",
+      "Tread anti slip rib.002",
+      "Tread anti slip rib.003",
+      "Tread anti slip rib.004",
+      "Tread anti slip rib.005",
+      "Tread anti slip rib.006",
+      "High visibility nosing",
+      "Stair tread 01",
+      "Tread anti slip rib.007",
+      "Tread anti slip rib.008",
+      "Tread anti slip rib.009",
+      "Tread anti slip rib.010",
+      "Tread anti slip rib.011",
+      "Tread anti slip rib.012",
+      "Tread anti slip rib.013",
+      "High visibility nosing.001",
+      "Stair tread 02",
+      "Tread anti slip rib.014",
+      "Tread anti slip rib.015",
+      "Tread anti slip rib.016",
+      "Tread anti slip rib.017",
+      "Tread anti slip rib.018",
+      "Tread anti slip rib.019",
+      "Tread anti slip rib.020",
+      "High visibility nosing.002",
+      "Stair tread 03",
+      "Tread anti slip rib.021",
+      "Tread anti slip rib.022",
+      "Tread anti slip rib.023",
+      "Tread anti slip rib.024",
+      "Tread anti slip rib.025",
+      "Tread anti slip rib.026",
+      "Tread anti slip rib.027",
+      "High visibility nosing.003",
+      "Stair tread 04",
+      "Tread anti slip rib.028",
+      "Tread anti slip rib.029",
+      "Tread anti slip rib.030",
+      "Tread anti slip rib.031",
+      "Tread anti slip rib.032",
+      "Tread anti slip rib.033",
+      "Tread anti slip rib.034",
+      "High visibility nosing.004",
+      "Stair tread 05",
+      "Tread anti slip rib.035",
+      "Tread anti slip rib.036",
+      "Tread anti slip rib.037",
+      "Tread anti slip rib.038",
+      "Tread anti slip rib.039",
+      "Tread anti slip rib.040",
+      "Tread anti slip rib.041",
+      "High visibility nosing.005",
+      "Stair tread 06",
+      "Tread anti slip rib.042",
+      "Tread anti slip rib.043",
+      "Tread anti slip rib.044",
+      "Tread anti slip rib.045",
+      "Tread anti slip rib.046",
+      "Tread anti slip rib.047",
+      "Tread anti slip rib.048",
+      "High visibility nosing.006",
+      "Stair tread 07",
+      "Tread anti slip rib.049",
+      "Tread anti slip rib.050",
+      "Tread anti slip rib.051",
+      "Tread anti slip rib.052",
+      "Tread anti slip rib.053",
+      "Tread anti slip rib.054",
+      "Tread anti slip rib.055",
+      "High visibility nosing.007",
+      "Stair stringer",
+      "Handrail stanchion",
+      "Handrail stanchion.001",
+      "Handrail stanchion.002",
+      "Continuous copper handrail",
+      "Stair ground shoe",
+      "Stair stringer.001",
+      "Handrail stanchion.003",
+      "Handrail stanchion.004",
+      "Handrail stanchion.005",
+      "Continuous copper handrail.001",
+      "Stair ground shoe.001"
+    ],
+    "door_mount_half_width": 0.5000000298023224,
+    "rail_inner_half_width": 0.6099999845027924,
+    "landing_top": -0.7949999570846558
+  },
+  "refinements": {
+    "handrail_reduction": 0.12,
+    "greenhouse_leg_shift": 0,
+    "extended_pipes": [
+      {
+        "object": "Protected underfloor service pipe",
+        "half": 0.8600000095367432
+      },
+      {
+        "object": "Protected underfloor service pipe.001",
+        "half": 0.8600000095367432
+      },
+      {
+        "object": "Protected underfloor service pipe.002",
+        "half": 0.8600000095367432
+      },
+      {
+        "object": "Protected underfloor service pipe.003",
+        "half": 0.8600000095367432
+      }
+    ],
+    "removed_roof_objects": [
+      "Roof heat exchanger",
+      "Radiator fin",
+      "Radiator fin.001",
+      "Radiator fin.002",
+      "Radiator fin.003",
+      "Radiator fin.004",
+      "Radiator fin.005",
+      "Radiator fin.006",
+      "Radiator fin.007",
+      "Radiator fin.008",
+      "Roof heat exchanger.001",
+      "Radiator fin.009",
+      "Radiator fin.010",
+      "Radiator fin.011",
+      "Radiator fin.012",
+      "Radiator fin.013",
+      "Radiator fin.014",
+      "Radiator fin.015",
+      "Radiator fin.016",
+      "Radiator fin.017"
+    ]
+  },
+  "motion": [
+    {
+      "name": "RW_GroundLeg00",
+      "position": [
+        -0.14835000410676003,
+        0,
+        0
+      ],
+      "retractPosition": [
+        -0.08999130129814148,
+        0.6879491806030273,
+        -0.20425540208816528
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate"
+    },
+    {
+      "name": "RW_GroundLeg01",
+      "position": [
+        -0.14835000410676003,
+        0,
+        0
+      ],
+      "retractPosition": [
+        -0.08999130129814148,
+        0.6879491806030273,
+        0.2042553573846817
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.001"
+    },
+    {
+      "name": "RW_GroundLeg02",
+      "position": [
+        0.14835000410676003,
+        0,
+        0
+      ],
+      "retractPosition": [
+        0.0899912640452385,
+        0.6879491806030273,
+        -0.2042553573846817
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.002"
+    },
+    {
+      "name": "RW_GroundLeg03",
+      "position": [
+        0.14835000410676003,
+        0,
+        0
+      ],
+      "retractPosition": [
+        0.0899912640452385,
+        0.6879491806030273,
+        0.20425540208816528
+      ],
+      "retractEuler": [
+        0,
+        0,
+        0
+      ],
+      "mechanism": "Legs",
+      "foot": "Replaceable pad plate.003"
+    },
+    {
+      "name": "RW_GroundStairs",
+      "position": [
+        -0.12499996460974216,
+        -0.8899999260902405,
+        1.7799999713897705
+      ],
+      "retractPosition": [
+        -0.12499996460974216,
+        -0.8899999260902405,
+        1.7799999713897705
+      ],
+      "retractEuler": [
+        -130,
+        0,
+        0
+      ],
+      "mechanism": "Stairs"
+    }
+  ],
+  "rig_members": {
+    "Leg 00 | polished ram": "RW_GroundLeg00",
+    "Leg 01 | polished ram": "RW_GroundLeg01",
+    "Leg 02 | polished ram": "RW_GroundLeg02",
+    "Leg 03 | polished ram": "RW_GroundLeg03",
+    "Anti rotation guide": "RW_GroundLeg00",
+    "Torque-link clevis": "RW_GroundLeg00",
+    "Hydraulic hose": "RW_GroundLeg00",
+    "Foot swivel": "RW_GroundLeg00",
+    "Wide load-spreading pad": "RW_GroundLeg00",
+    "Replaceable pad plate": "RW_GroundLeg00",
+    "Foot bronze perimeter": "RW_GroundLeg00",
+    "Captive hex fastener": "RW_GroundLeg00",
+    "Captive hex fastener.001": "RW_GroundLeg00",
+    "Captive hex fastener.002": "RW_GroundLeg00",
+    "Captive hex fastener.003": "RW_GroundLeg00",
+    "Captive hex fastener.004": "RW_GroundLeg00",
+    "Captive hex fastener.005": "RW_GroundLeg00",
+    "Captive hex fastener.006": "RW_GroundLeg00",
+    "Captive hex fastener.007": "RW_GroundLeg00",
+    "Pad radial traction lug": "RW_GroundLeg00",
+    "Pad radial traction lug.001": "RW_GroundLeg00",
+    "Pad radial traction lug.002": "RW_GroundLeg00",
+    "Pad radial traction lug.003": "RW_GroundLeg00",
+    "Anti rotation guide.001": "RW_GroundLeg01",
+    "Torque-link clevis.001": "RW_GroundLeg01",
+    "Hydraulic hose.001": "RW_GroundLeg01",
+    "Foot swivel.001": "RW_GroundLeg01",
+    "Wide load-spreading pad.001": "RW_GroundLeg01",
+    "Replaceable pad plate.001": "RW_GroundLeg01",
+    "Foot bronze perimeter.001": "RW_GroundLeg01",
+    "Captive hex fastener.008": "RW_GroundLeg01",
+    "Captive hex fastener.009": "RW_GroundLeg01",
+    "Captive hex fastener.010": "RW_GroundLeg01",
+    "Captive hex fastener.011": "RW_GroundLeg01",
+    "Captive hex fastener.012": "RW_GroundLeg01",
+    "Captive hex fastener.013": "RW_GroundLeg01",
+    "Captive hex fastener.014": "RW_GroundLeg01",
+    "Captive hex fastener.015": "RW_GroundLeg01",
+    "Pad radial traction lug.004": "RW_GroundLeg01",
+    "Pad radial traction lug.005": "RW_GroundLeg01",
+    "Pad radial traction lug.006": "RW_GroundLeg01",
+    "Pad radial traction lug.007": "RW_GroundLeg01",
+    "Anti rotation guide.002": "RW_GroundLeg02",
+    "Torque-link clevis.002": "RW_GroundLeg02",
+    "Hydraulic hose.002": "RW_GroundLeg02",
+    "Foot swivel.002": "RW_GroundLeg02",
+    "Wide load-spreading pad.002": "RW_GroundLeg02",
+    "Replaceable pad plate.002": "RW_GroundLeg02",
+    "Foot bronze perimeter.002": "RW_GroundLeg02",
+    "Captive hex fastener.016": "RW_GroundLeg02",
+    "Captive hex fastener.017": "RW_GroundLeg02",
+    "Captive hex fastener.018": "RW_GroundLeg02",
+    "Captive hex fastener.019": "RW_GroundLeg02",
+    "Captive hex fastener.020": "RW_GroundLeg02",
+    "Captive hex fastener.021": "RW_GroundLeg02",
+    "Captive hex fastener.022": "RW_GroundLeg02",
+    "Captive hex fastener.023": "RW_GroundLeg02",
+    "Pad radial traction lug.008": "RW_GroundLeg02",
+    "Pad radial traction lug.009": "RW_GroundLeg02",
+    "Pad radial traction lug.010": "RW_GroundLeg02",
+    "Pad radial traction lug.011": "RW_GroundLeg02",
+    "Anti rotation guide.003": "RW_GroundLeg03",
+    "Torque-link clevis.003": "RW_GroundLeg03",
+    "Hydraulic hose.003": "RW_GroundLeg03",
+    "Foot swivel.003": "RW_GroundLeg03",
+    "Wide load-spreading pad.003": "RW_GroundLeg03",
+    "Replaceable pad plate.003": "RW_GroundLeg03",
+    "Foot bronze perimeter.003": "RW_GroundLeg03",
+    "Captive hex fastener.024": "RW_GroundLeg03",
+    "Captive hex fastener.025": "RW_GroundLeg03",
+    "Captive hex fastener.026": "RW_GroundLeg03",
+    "Captive hex fastener.027": "RW_GroundLeg03",
+    "Captive hex fastener.028": "RW_GroundLeg03",
+    "Captive hex fastener.029": "RW_GroundLeg03",
+    "Captive hex fastener.030": "RW_GroundLeg03",
+    "Captive hex fastener.031": "RW_GroundLeg03",
+    "Pad radial traction lug.012": "RW_GroundLeg03",
+    "Pad radial traction lug.013": "RW_GroundLeg03",
+    "Pad radial traction lug.014": "RW_GroundLeg03",
+    "Pad radial traction lug.015": "RW_GroundLeg03",
+    "Stair tread 00": "RW_GroundStairs",
+    "Tread anti slip rib": "RW_GroundStairs",
+    "Tread anti slip rib.001": "RW_GroundStairs",
+    "Tread anti slip rib.002": "RW_GroundStairs",
+    "Tread anti slip rib.003": "RW_GroundStairs",
+    "Tread anti slip rib.004": "RW_GroundStairs",
+    "Tread anti slip rib.005": "RW_GroundStairs",
+    "Tread anti slip rib.006": "RW_GroundStairs",
+    "High visibility nosing": "RW_GroundStairs",
+    "Stair tread 01": "RW_GroundStairs",
+    "Tread anti slip rib.007": "RW_GroundStairs",
+    "Tread anti slip rib.008": "RW_GroundStairs",
+    "Tread anti slip rib.009": "RW_GroundStairs",
+    "Tread anti slip rib.010": "RW_GroundStairs",
+    "Tread anti slip rib.011": "RW_GroundStairs",
+    "Tread anti slip rib.012": "RW_GroundStairs",
+    "Tread anti slip rib.013": "RW_GroundStairs",
+    "High visibility nosing.001": "RW_GroundStairs",
+    "Stair tread 02": "RW_GroundStairs",
+    "Tread anti slip rib.014": "RW_GroundStairs",
+    "Tread anti slip rib.015": "RW_GroundStairs",
+    "Tread anti slip rib.016": "RW_GroundStairs",
+    "Tread anti slip rib.017": "RW_GroundStairs",
+    "Tread anti slip rib.018": "RW_GroundStairs",
+    "Tread anti slip rib.019": "RW_GroundStairs",
+    "Tread anti slip rib.020": "RW_GroundStairs",
+    "High visibility nosing.002": "RW_GroundStairs",
+    "Stair tread 03": "RW_GroundStairs",
+    "Tread anti slip rib.021": "RW_GroundStairs",
+    "Tread anti slip rib.022": "RW_GroundStairs",
+    "Tread anti slip rib.023": "RW_GroundStairs",
+    "Tread anti slip rib.024": "RW_GroundStairs",
+    "Tread anti slip rib.025": "RW_GroundStairs",
+    "Tread anti slip rib.026": "RW_GroundStairs",
+    "Tread anti slip rib.027": "RW_GroundStairs",
+    "High visibility nosing.003": "RW_GroundStairs",
+    "Stair tread 04": "RW_GroundStairs",
+    "Tread anti slip rib.028": "RW_GroundStairs",
+    "Tread anti slip rib.029": "RW_GroundStairs",
+    "Tread anti slip rib.030": "RW_GroundStairs",
+    "Tread anti slip rib.031": "RW_GroundStairs",
+    "Tread anti slip rib.032": "RW_GroundStairs",
+    "Tread anti slip rib.033": "RW_GroundStairs",
+    "Tread anti slip rib.034": "RW_GroundStairs",
+    "High visibility nosing.004": "RW_GroundStairs",
+    "Stair tread 05": "RW_GroundStairs",
+    "Tread anti slip rib.035": "RW_GroundStairs",
+    "Tread anti slip rib.036": "RW_GroundStairs",
+    "Tread anti slip rib.037": "RW_GroundStairs",
+    "Tread anti slip rib.038": "RW_GroundStairs",
+    "Tread anti slip rib.039": "RW_GroundStairs",
+    "Tread anti slip rib.040": "RW_GroundStairs",
+    "Tread anti slip rib.041": "RW_GroundStairs",
+    "High visibility nosing.005": "RW_GroundStairs",
+    "Stair tread 06": "RW_GroundStairs",
+    "Tread anti slip rib.042": "RW_GroundStairs",
+    "Tread anti slip rib.043": "RW_GroundStairs",
+    "Tread anti slip rib.044": "RW_GroundStairs",
+    "Tread anti slip rib.045": "RW_GroundStairs",
+    "Tread anti slip rib.046": "RW_GroundStairs",
+    "Tread anti slip rib.047": "RW_GroundStairs",
+    "Tread anti slip rib.048": "RW_GroundStairs",
+    "High visibility nosing.006": "RW_GroundStairs",
+    "Stair tread 07": "RW_GroundStairs",
+    "Tread anti slip rib.049": "RW_GroundStairs",
+    "Tread anti slip rib.050": "RW_GroundStairs",
+    "Tread anti slip rib.051": "RW_GroundStairs",
+    "Tread anti slip rib.052": "RW_GroundStairs",
+    "Tread anti slip rib.053": "RW_GroundStairs",
+    "Tread anti slip rib.054": "RW_GroundStairs",
+    "Tread anti slip rib.055": "RW_GroundStairs",
+    "High visibility nosing.007": "RW_GroundStairs",
+    "Stair stringer": "RW_GroundStairs",
+    "Handrail stanchion": "RW_GroundStairs",
+    "Handrail stanchion.001": "RW_GroundStairs",
+    "Handrail stanchion.002": "RW_GroundStairs",
+    "Continuous copper handrail": "RW_GroundStairs",
+    "Stair ground shoe": "RW_GroundStairs",
+    "Stair stringer.001": "RW_GroundStairs",
+    "Handrail stanchion.003": "RW_GroundStairs",
+    "Handrail stanchion.004": "RW_GroundStairs",
+    "Handrail stanchion.005": "RW_GroundStairs",
+    "Continuous copper handrail.001": "RW_GroundStairs",
+    "Stair ground shoe.001": "RW_GroundStairs"
+  },
+  "hose_bounds": {
+    "Hydraulic hose": [
+      [
+        -0.8965440392494202,
+        -1.787643551826477,
+        0.8615979552268982
+      ],
+      [
+        -0.6689488887786865,
+        -0.8098882436752319,
+        1.2254698276519775
+      ]
+    ],
+    "Hydraulic hose.001": [
+      [
+        -0.8978537917137146,
+        -1.788784384727478,
+        -1.201345682144165
+      ],
+      [
+        -0.6669842004776001,
+        -0.8154230117797852,
+        -0.8596888780593872
+      ]
+    ],
+    "Hydraulic hose.002": [
+      [
+        0.36847174167633057,
+        -1.788888692855835,
+        0.8620918989181519
+      ],
+      [
+        0.689538836479187,
+        -0.8104207515716553,
+        1.2250463962554932
+      ]
+    ],
+    "Hydraulic hose.003": [
+      [
+        0.3691253364086151,
+        -1.788895606994629,
+        -1.201011061668396
+      ],
+      [
+        0.6918001770973206,
+        -0.8180609941482544,
+        -0.8591216802597046
+      ]
+    ]
+  },
+  "foot_bounds": {
+    "RW_GroundLeg00": [
+      [
+        -1.05840003490448,
+        -2.2300000190734863,
+        0.9549999237060547
+      ],
+      [
+        -0.368399977684021,
+        -2.190000057220459,
+        1.6449999809265137
+      ]
+    ],
+    "RW_GroundLeg01": [
+      [
+        -1.05840003490448,
+        -2.2300000190734863,
+        -1.6449999809265137
+      ],
+      [
+        -0.368399977684021,
+        -2.190000057220459,
+        -0.9549999237060547
+      ]
+    ],
+    "RW_GroundLeg02": [
+      [
+        0.368399977684021,
+        -2.2300000190734863,
+        0.9549999237060547
+      ],
+      [
+        1.05840003490448,
+        -2.190000057220459,
+        1.6449999809265137
+      ]
+    ],
+    "RW_GroundLeg03": [
+      [
+        0.368399977684021,
+        -2.2300000190734863,
+        -1.6449999809265137
+      ],
+      [
+        1.05840003490448,
+        -2.190000057220459,
+        -0.9549999237060547
+      ]
+    ]
+  },
+  "window_triangles_expected": 1400,
+  "window_triangles_removed": 1400,
+  "label_triangles_removed": 228,
+  "dish_backfaces": 768,
+  "service_paths": [],
+  "replaced_greenhouse_interior_triangles": 0,
+  "airlock": [
+    -0.125,
+    -0.16,
+    1.55
+  ],
+  "boarding_bounds": [
+    [
+      -0.5,
+      -1.15,
+      1.43
+    ],
+    [
+      0.30000000000000004,
+      0.55,
+      2.1
+    ]
+  ],
+  "draw_calls": 47,
+  "native_sha256": "d788823a55f7bbc713bef06fe474afe0ca9e4c7f0883a1a308c70097a9184d91",
+  "nodes": {
+    "node_stack_top": [
+      0.8600000143051147,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      2
+    ],
+    "node_stack_bottom": [
+      -0.8600000143051147,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      2
+    ]
+  },
+  "docking_ports": [
+    {
+      "attachNode": "top",
+      "transform": "RW_Dock_top",
+      "position": [
+        0.8600000143051147,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "attachNode": "bottom",
+      "transform": "RW_Dock_bottom",
+      "position": [
+        -0.8600000143051147,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "roof_rail_sockets": [
+    {
+      "center": [
+        -0.6600000262260437,
+        0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        0.6600000262260437,
+        0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        -0.6600000262260437,
+        -0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    },
+    {
+      "center": [
+        0.6600000262260437,
+        -0.48000000417232513
+      ],
+      "bottom": 1.0741811427454138,
+      "top": 1.2200000190734865,
+      "rail_foot": 1.1800000190734865,
+      "hull": 1.1041811427454138
+    }
+  ],
+  "end_face_refinement": {
+    "ends": [
+      {
+        "name": "node_stack_top",
+        "center": [
+          0.860000014,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "node_stack_bottom",
+        "center": [
+          -0.860000014,
+          0.0,
+          0.0
+        ],
+        "outward": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "removed": {
+      "crest": 4,
+      "window": 96
+    },
+    "body_badge_vertices_turned_90": 96
+  },
+  "dev18_equipment": {
+    "rcs": [
+      {
+        "root": "RW_RCSCluster_BottomRear",
+        "center": [
+          -0.680000014,
+          -0.9758073580374355,
+          -0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_BottomFront",
+        "center": [
+          -0.680000014,
+          -0.9758073580374355,
+          0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopRear",
+        "center": [
+          -0.680000014,
+          0.9758073580374355,
+          -0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "root": "RW_RCSCluster_TopFront",
+        "center": [
+          -0.680000014,
+          0.9758073580374355,
+          0.9758073580374355
+        ],
+        "directions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "exterior_light": {
+      "position": [
+        -0.10000000149011612,
+        0.8346891108675446,
+        1.6635
+      ],
+      "direction": [
+        0.0,
+        -0.8660254037844386,
+        0.5
+      ],
+      "range": 9,
+      "cone_degrees": 90,
+      "ec_per_second": 0.03
+    }
+  },
+  "dev19_changes": {
+    "removed_rcs_clusters": 4,
+    "light": "explicit ForcePixel spot / cabin linked by default / 0.03 EC/s"
+  },
+  "dev20_changes": {
+    "length_m": 2.15,
+    "old_length_m": 1.72,
+    "crew": 3,
+    "IVA": "Mk1-3",
+    "roof_removed": {
+      "Roof heat exchanger": 216,
+      "Roof heat exchanger.001": 216,
+      "Radiator fin": 188,
+      "Radiator fin.001": 188,
+      "Radiator fin.002": 188,
+      "Radiator fin.003": 188,
+      "Radiator fin.004": 188,
+      "Radiator fin.005": 188,
+      "Radiator fin.006": 188,
+      "Radiator fin.007": 188,
+      "Radiator fin.008": 188,
+      "Radiator fin.009": 188,
+      "Radiator fin.010": 188,
+      "Radiator fin.011": 188,
+      "Radiator fin.012": 188,
+      "Radiator fin.013": 188,
+      "Radiator fin.014": 188,
+      "Radiator fin.015": 188,
+      "Radiator fin.016": 188,
+      "Radiator fin.017": 188,
+      "High gain dish rim": 768,
+      "Dish feed": 76,
+      "High gain parabolic reflector": 1536
+    },
+    "continuous_dish": true,
+    "fixture_neck": true,
+    "habitat_volume": 7.25
+  }
+}

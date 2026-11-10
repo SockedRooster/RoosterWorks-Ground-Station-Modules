@@ -1,0 +1,54 @@
+{
+  "RW_GND_HAB": {
+    "sealed_fixture_mount": true,
+    "science_stair_light_added": false
+  },
+  "RW_GND_AIR": {
+    "sealed_fixture_mount": true,
+    "science_stair_light_added": false
+  },
+  "RW_GND_LAB": {
+    "sealed_fixture_mount": true,
+    "science_stair_light_added": true
+  },
+  "RW_GND_FLEX": {
+    "overlap_sleeve_depth": 0.24,
+    "bellows_overlap_each_end": 0.09,
+    "outer_radius": 1.225,
+    "connected_motion": true
+  },
+  "RW_GND_CMD": {
+    "length_m": 2.15,
+    "old_length_m": 1.72,
+    "crew": 3,
+    "IVA": "Mk1-3",
+    "roof_removed": {
+      "Roof heat exchanger": 216,
+      "Roof heat exchanger.001": 216,
+      "Radiator fin": 188,
+      "Radiator fin.001": 188,
+      "Radiator fin.002": 188,
+      "Radiator fin.003": 188,
+      "Radiator fin.004": 188,
+      "Radiator fin.005": 188,
+      "Radiator fin.006": 188,
+      "Radiator fin.007": 188,
+      "Radiator fin.008": 188,
+      "Radiator fin.009": 188,
+      "Radiator fin.010": 188,
+      "Radiator fin.011": 188,
+      "Radiator fin.012": 188,
+      "Radiator fin.013": 188,
+      "Radiator fin.014": 188,
+      "Radiator fin.015": 188,
+      "Radiator fin.016": 188,
+      "Radiator fin.017": 188,
+      "High gain dish rim": 768,
+      "Dish feed": 76,
+      "High gain parabolic reflector": 1536
+    },
+    "continuous_dish": true,
+    "fixture_neck": true,
+    "habitat_volume": 7.25
+  }
+}

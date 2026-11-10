@@ -1,0 +1,11 @@
+{
+  "role": "VT",
+  "motion": [],
+  "dev18_equipment": {
+    "thrust_kn": 60,
+    "dry_mass_t": 0.6,
+    "wet_mass_t": 1.84,
+    "rcs": [],
+    "ports": 0
+  }
+}

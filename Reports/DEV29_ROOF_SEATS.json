@@ -1,0 +1,64 @@
+[
+  {
+    "name": "telemetry radome",
+    "center": [
+      -0.5625,
+      0
+    ],
+    "radius": 0.166,
+    "top": 1.272,
+    "existing_base": 1.26
+  },
+  {
+    "name": "communications mast",
+    "center": [
+      0.375,
+      -0.1
+    ],
+    "radius": 0.067,
+    "top": 1.225,
+    "existing_base": 1.15
+  },
+  {
+    "name": "roof panel gasket",
+    "source": "GND_RW_Ground_black_0_0",
+    "x_range": [
+      -0.6725000143051147,
+      -0.22749999165534973
+    ],
+    "z_range": [
+      0.1531900018453598,
+      0.45345601439476013
+    ],
+    "slope": -0.2562147329539517,
+    "top_offset": 1.2631885860884629
+  },
+  {
+    "name": "roof panel gasket",
+    "source": "GND_RW_Ground_graphite_8_0",
+    "x_range": [
+      -0.3375000059604645,
+      0.512499988079071
+    ],
+    "z_range": [
+      -0.47652798891067505,
+      -0.0725409984588623
+    ],
+    "slope": 0.23329085189333118,
+    "top_offset": 1.2422706222234892
+  },
+  {
+    "name": "roof skin infill",
+    "outer_radius": 1.2,
+    "inner_radius": 1.15,
+    "x_range": [
+      -0.89,
+      0.89
+    ],
+    "z_range": [
+      -0.5,
+      0.5
+    ],
+    "cladding_radius": 1.206
+  }
+]

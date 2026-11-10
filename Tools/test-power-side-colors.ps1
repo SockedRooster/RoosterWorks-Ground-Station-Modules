@@ -1,0 +1,11 @@
+$ErrorActionPreference='Stop'
+$kit=Split-Path -Parent $PSScriptRoot
+$core=Join-Path (Split-Path -Parent $kit) 'rw-v075dev11'
+$source="using System.Globalization;`n"+(Get-Content (Join-Path $core 'Source/RingColor.cs') -Raw)
+$doubles=Get-Content (Join-Path $kit 'Tools/HardpointColorDoubles.cs') -Raw
+$tests=(Get-Content (Join-Path $kit 'Tools/HardpointColorTests.cs') -Raw).Replace('RW_GND_HPT','RW_GND_PWR')
+Add-Type -TypeDefinition ($source+"`n"+$doubles+"`n"+$tests)
+$fixture=Get-Content (Join-Path $kit 'Reports/POWER_SIDE_COLOR_FIXTURE.json') -Raw | ConvertFrom-Json
+foreach($spec in $fixture){[HardpointColorTest]::Add($spec.path,$spec.texture,$spec.vertexCount,[int[]]$spec.triangles,$spec.ranges)}
+[HardpointColorTest]::Run()
+

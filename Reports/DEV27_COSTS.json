@@ -1,0 +1,41 @@
+{
+  "RW_GND_NST": {
+    "unit_costs": {
+      "ElectricCharge": 0,
+      "Uraninite": 0.7,
+      "RW_NuclearFeedstock": 0.8,
+      "EnrichedUranium": 865,
+      "DepletedFuel": 0
+    },
+    "dry_price": 24000.0,
+    "configured_full_price": 198100.0,
+    "initial_price": 24000.0,
+    "empty_fuel_tanks": true
+  },
+  "RW_GND_NSM": {
+    "unit_costs": {
+      "ElectricCharge": 0,
+      "Uraninite": 0.7,
+      "RW_NuclearFeedstock": 0.8,
+      "EnrichedUranium": 865,
+      "DepletedFuel": 0
+    },
+    "dry_price": 36000.0,
+    "configured_full_price": 36375.0,
+    "initial_price": 36000.0,
+    "empty_fuel_tanks": true
+  },
+  "RW_GND_CEN": {
+    "unit_costs": {
+      "ElectricCharge": 0,
+      "Uraninite": 0.7,
+      "RW_NuclearFeedstock": 0.8,
+      "EnrichedUranium": 865,
+      "DepletedFuel": 0
+    },
+    "dry_price": 68000.0,
+    "configured_full_price": 102800.0,
+    "initial_price": 68000.0,
+    "empty_fuel_tanks": true
+  }
+}

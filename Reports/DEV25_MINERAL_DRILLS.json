@@ -1,0 +1,178 @@
+[
+  {
+    "id": "RW_GND_DRILL_MetalOre",
+    "resource": "MetalOre",
+    "display": "Metal Ore",
+    "code": "MET",
+    "color": [
+      96,
+      127,
+      154
+    ],
+    "dependency": "ExtraplanetaryLaunchpads|SimpleConstruction",
+    "capacity_units": 50.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 5.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 1.3,
+    "efficiency": 0.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 40
+  },
+  {
+    "id": "RW_GND_DRILL_MetallicOre",
+    "resource": "MetallicOre",
+    "display": "Metallic Ore",
+    "code": "MTO",
+    "color": [
+      161,
+      77,
+      48
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 1.375,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 18
+  },
+  {
+    "id": "RW_GND_DRILL_Minerals",
+    "resource": "Minerals",
+    "display": "Minerals",
+    "code": "MIN",
+    "color": [
+      184,
+      142,
+      52
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 0.675,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 2
+  },
+  {
+    "id": "RW_GND_DRILL_Substrate",
+    "resource": "Substrate",
+    "display": "Substrate",
+    "code": "SUB",
+    "color": [
+      118,
+      132,
+      72
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 0.4,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 2
+  },
+  {
+    "id": "RW_GND_DRILL_Uraninite",
+    "resource": "Uraninite",
+    "display": "Uraninite",
+    "code": "URN",
+    "color": [
+      156,
+      173,
+      45
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 1.875,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 42
+  },
+  {
+    "id": "RW_GND_DRILL_Lithium",
+    "resource": "Lithium",
+    "display": "Lithium",
+    "code": "LTH",
+    "color": [
+      49,
+      135,
+      179
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 0.13349999999999998,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 50
+  },
+  {
+    "id": "RW_GND_DRILL_RareMetals",
+    "resource": "RareMetals",
+    "display": "Rare Metals",
+    "code": "RAR",
+    "color": [
+      136,
+      94,
+      161
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 1.95,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 1
+  },
+  {
+    "id": "RW_GND_DRILL_Rock",
+    "resource": "Rock",
+    "display": "Rock",
+    "code": "RCK",
+    "color": [
+      124,
+      127,
+      124
+    ],
+    "dependency": "CommunityResourcePack",
+    "capacity_units": 250.0,
+    "buffer_liters": 250.0,
+    "unit_volume_liters": 1.0,
+    "dry_mass_t": 0.65,
+    "full_resource_mass_t": 0.625,
+    "efficiency": 3.75,
+    "ec_per_second": 7.5,
+    "frame_model": "RW_GND_DRILL",
+    "stock_mechanism_unchanged": true,
+    "known_positive_map_records": 38
+  }
+]

@@ -1,0 +1,88 @@
+newmtl RW_Ground_black
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_black.png
+
+newmtl RW_Ground_bronze
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_bronze.png
+
+newmtl RW_Ground_ceramic
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_ceramic.png
+
+newmtl RW_Ground_cladding
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_cladding.png
+
+newmtl RW_Ground_cladding_white
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_cladding_white.png
+
+newmtl RW_Ground_crest
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_crest.png
+
+newmtl RW_Ground_detail
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_detail.png
+
+newmtl RW_Ground_graphite
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_graphite.png
+
+newmtl RW_Ground_hubblanket
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_hubblanket.png
+
+newmtl RW_Ground_rail
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_rail.png
+
+newmtl RW_Ground_steel
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_steel.png
+
+newmtl RW_Ground_white
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_white.png
+
+newmtl RW_GroundHardware_graphite
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_graphite.png
+
+newmtl RW_GroundHardware_steel
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_steel.png
+
+newmtl RW_GroundHardware_copper
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_copper.png
+
+newmtl RW_GroundHardware_ivory
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_ivory.png
+
+newmtl RW_GroundHardware_chrome
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_chrome.png
+
+newmtl RW_GroundHardware_rubber
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_rubber.png
+
+newmtl RW_GroundHardware_screen
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_screen.png
+
+newmtl RW_GroundHardware_warm_glass
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/gnd_warm_glass.png
+
+newmtl RW_Ground_tublabel
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_tublabel.png
+
+newmtl RW_EndWindowGlass
+Kd 1 1 1
+map_Kd ../../GameData/RoosterWorksGroundModules/Models/rwm_endwindow.png
+

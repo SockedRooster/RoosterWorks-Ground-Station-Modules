@@ -1,0 +1,12 @@
+{
+  "RW_GND_HAB": 2,
+  "RW_GND_LAB": 2,
+  "RW_GND_CMD": 3,
+  "RW_GND_LOG": 4,
+  "RW_GND_GRN": 4,
+  "RW_GND_AIR": 3,
+  "RW_GND_PWR": 3,
+  "RW_GND_HUB": 7,
+  "RW_GND_TUB": 3,
+  "RW_GND_ELB": 3
+}

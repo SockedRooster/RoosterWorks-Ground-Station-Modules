@@ -1,0 +1,2241 @@
+{
+  "source": "Installed ModuleManager.ConfigCache, KSP 1.12.5",
+  "source_sha256": "f523df6cfb1df9093c0d41ac5db9333495a127173865268c0cc2ec747ed4e583",
+  "definitions": {
+    "Minerals": {
+      "density": "0.00270000000",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "MetallicOre": {
+      "density": "0.00550000000",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "RareMetals": {
+      "density": "0.0078",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "Rock": {
+      "density": "0.0025",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "Substrate": {
+      "density": "0.0016",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "Uraninite": {
+      "density": "0.0075",
+      "volume": "1",
+      "flowMode": "ALL_VESSEL"
+    },
+    "Lithium": {
+      "density": "0.000534",
+      "volume": "1",
+      "flowMode": "STAGE_PRIORITY_FLOW"
+    },
+    "MetalOre": {
+      "density": "0.026",
+      "volume": "5",
+      "flowMode": "ALL_VESSEL"
+    },
+    "Ore": {
+      "density": "0.010",
+      "volume": "5",
+      "flowMode": "ALL_VESSEL"
+    }
+  },
+  "positive_crustal_distributions": {
+    "Substrate": [
+      {
+        "PlanetName": "Slate",
+        "BiomeName": null,
+        "PresenceChance": "1000",
+        "MinAbundance": "1",
+        "MaxAbundance": "10",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bub",
+        "BiomeName": null,
+        "PresenceChance": "60",
+        "MinAbundance": "0.15",
+        "MaxAbundance": "1.5",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "Rock": [
+      {
+        "PlanetName": "Moho",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "20",
+        "MaxAbundance": "22",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole",
+        "PresenceChance": "100",
+        "MinAbundance": "19",
+        "MaxAbundance": "20",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "18",
+        "MaxAbundance": "19",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "35",
+        "MaxAbundance": "45",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "30",
+        "MaxAbundance": "40",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "30",
+        "MaxAbundance": "40",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Crater Lake",
+        "PresenceChance": "100",
+        "MinAbundance": "34",
+        "MaxAbundance": "35",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Foothills",
+        "PresenceChance": "100",
+        "MinAbundance": "29",
+        "MaxAbundance": "30",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "60",
+        "MaxAbundance": "70",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "20",
+        "MaxAbundance": "30",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Ice Caps",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Northern Ice Shelf",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Southern Ice Shelf",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "20",
+        "MaxAbundance": "25",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Northern Basin",
+        "PresenceChance": "100",
+        "MinAbundance": "17",
+        "MaxAbundance": "21",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Farside Basin",
+        "PresenceChance": "100",
+        "MinAbundance": "17",
+        "MaxAbundance": "21",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "7",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Lowlands",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "14",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Midlands",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "14",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "14",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Poles",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Slopes",
+        "PresenceChance": "100",
+        "MinAbundance": "14",
+        "MaxAbundance": "16",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "13",
+        "MaxAbundance": "18",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Poles",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "11",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Polar Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "11",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Polar Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "11",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ike",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "40",
+        "MaxAbundance": "50",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "60",
+        "MaxAbundance": "70",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "17",
+        "MaxAbundance": "22",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Peaks",
+        "PresenceChance": "100",
+        "MinAbundance": "40",
+        "MaxAbundance": "50",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Crater Island",
+        "PresenceChance": "100",
+        "MinAbundance": "40",
+        "MaxAbundance": "50",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Vall",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Vall",
+        "BiomeName": "Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "28",
+        "MaxAbundance": "29",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "60",
+        "MaxAbundance": "70",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bop",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "75",
+        "MaxAbundance": "80",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Pol",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "33",
+        "MaxAbundance": "34",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eeloo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "12",
+        "MaxAbundance": "16",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eeloo",
+        "BiomeName": "Ice Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "56",
+        "MaxAbundance": "57",
+        "kind": "BIOME_RESOURCE"
+      }
+    ],
+    "Minerals": [
+      {
+        "PlanetName": "Slate",
+        "BiomeName": null,
+        "PresenceChance": "1000",
+        "MinAbundance": "1",
+        "MaxAbundance": "10",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bub",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.8",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "Uraninite": [
+      {
+        "PlanetName": "Moho",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Minor Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "7",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "7",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Crater Lake",
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "4",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Foothills",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "1",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Deserts",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Badlands",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "1",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Highland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Midland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Northwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Twin Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Southwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Polar Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "0.1",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.1",
+        "MaxAbundance": "0.3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Eastern Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Western Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Midland Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ike",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "7",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Ridges",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "9",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "9",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Peaks",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Crater Island",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "7",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Pol",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "25",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Slate",
+        "BiomeName": null,
+        "PresenceChance": "1000",
+        "MinAbundance": "1",
+        "MaxAbundance": "10",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "Lithium": [
+      {
+        "PlanetName": "Moho",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Minor Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4.9",
+        "MaxAbundance": "5.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole Ridge",
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "4",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "4.9",
+        "MaxAbundance": "5.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "4.9",
+        "MaxAbundance": "5.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4.9",
+        "MaxAbundance": "5.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Crater Lake",
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "4",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": "Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "4.9",
+        "MaxAbundance": "5.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Deserts",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Badlands",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Highland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Midland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Northwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Twin Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Southwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Polar Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4.3",
+        "MaxAbundance": "4.4",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "6",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Lowlands",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Midlands",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Poles",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Slopes",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Ike",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "10",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "6",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "7",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Ridges",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Peaks",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Crater Island",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "6",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Mara",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Minor Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Gagarin Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Grissom Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Galileio Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Tycho Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "10",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Pol",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "12",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "Ore": [
+      {
+        "PlanetName": "Moho",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole",
+        "PresenceChance": "100",
+        "MinAbundance": "13",
+        "MaxAbundance": "14",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Minor Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "10",
+        "MaxAbundance": "11",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "North Sinkhole Ridge",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Moho",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "9",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "14",
+        "MaxAbundance": "15",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "14",
+        "MaxAbundance": "15",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Crater Lake",
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "7",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Eve",
+        "BiomeName": "Foothills",
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Gilly",
+        "BiomeName": "Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "6",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "16",
+        "MaxAbundance": "17",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Deserts",
+        "PresenceChance": "100",
+        "MinAbundance": "12",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Kerbin",
+        "BiomeName": "Badlands",
+        "PresenceChance": "100",
+        "MinAbundance": "12",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Highland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Midland Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Northwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Farside Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "East Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Twin Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Southwest Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Polar Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "6",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Northern Basin",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mun",
+        "BiomeName": "Farside Basin",
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "1",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Lowlands",
+        "PresenceChance": "100",
+        "MinAbundance": "0",
+        "MaxAbundance": "1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Midlands",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "2",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Highlands",
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Poles",
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "2",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Minmus",
+        "BiomeName": "Slopes",
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4",
+        "MaxAbundance": "8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Eastern Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Western Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Midland Canyon",
+        "PresenceChance": "100",
+        "MinAbundance": "7",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Duna",
+        "BiomeName": "Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "11",
+        "MaxAbundance": "12",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ike",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "14",
+        "MaxAbundance": "20",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "11",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "16",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Impact Ejecta",
+        "PresenceChance": "100",
+        "MinAbundance": "12",
+        "MaxAbundance": "13",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Ridges",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "16",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Dres",
+        "BiomeName": "Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "16",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Peaks",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "9",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Laythe",
+        "BiomeName": "Crater Island",
+        "PresenceChance": "100",
+        "MinAbundance": "8",
+        "MaxAbundance": "9",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Vall",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Vall",
+        "BiomeName": "Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "6",
+        "MaxAbundance": "7",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "9",
+        "MaxAbundance": "12",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Mara",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Minor Craters",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Gagarin Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Grissom Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Galileio Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tylo",
+        "BiomeName": "Tycho Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "15",
+        "MaxAbundance": "18",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Bop",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "5",
+        "MaxAbundance": "9",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bop",
+        "BiomeName": "Poles",
+        "PresenceChance": "100",
+        "MinAbundance": "3",
+        "MaxAbundance": "4",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Pol",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2",
+        "MaxAbundance": "8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eeloo",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Eeloo",
+        "BiomeName": "Ice Canyons",
+        "PresenceChance": "100",
+        "MinAbundance": "11",
+        "MaxAbundance": "12",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Tom",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.0",
+        "MaxAbundance": "6.0",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Raga",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.8",
+        "MaxAbundance": "7.0",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Hurr",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.0",
+        "MaxAbundance": "5.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Rem",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.6",
+        "MaxAbundance": "3.4",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Flot",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2.5",
+        "MaxAbundance": "9.0",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Aven",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.2",
+        "MaxAbundance": "6.2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bub",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.8",
+        "MaxAbundance": "4.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Lukas",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dot",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.6",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Vez",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.8",
+        "MaxAbundance": "4.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Arktane",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.2",
+        "MaxAbundance": "5.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Skab",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.5",
+        "MaxAbundance": "6.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kol",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.7",
+        "MaxAbundance": "4.2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Ixia",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.8",
+        "MaxAbundance": "4.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Verda",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.5",
+        "MaxAbundance": "9",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "MetalOre": [
+      {
+        "PlanetName": null,
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "15",
+        "kind": "GLOBAL_RESOURCE"
+      },
+      {
+        "PlanetName": "Charr",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "12.95",
+        "MaxAbundance": "15.55",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Charr",
+        "BiomeName": "MetallicMountains",
+        "PresenceChance": "100",
+        "MinAbundance": "15.55",
+        "MaxAbundance": "19.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Charr",
+        "BiomeName": "MoltenCraters",
+        "PresenceChance": "100",
+        "MinAbundance": "18.2",
+        "MaxAbundance": "24.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Charr",
+        "BiomeName": "HotCraters",
+        "PresenceChance": "100",
+        "MinAbundance": "13.2",
+        "MaxAbundance": "18.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2.57",
+        "MaxAbundance": "9.21",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Nedzerfjord",
+        "PresenceChance": "100",
+        "MinAbundance": "8.2",
+        "MaxAbundance": "12.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Valley of Despair",
+        "PresenceChance": "100",
+        "MinAbundance": "8.2",
+        "MaxAbundance": "12.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Gulf of Hairy",
+        "PresenceChance": "100",
+        "MinAbundance": "8.2",
+        "MaxAbundance": "12.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Dusty Crater",
+        "PresenceChance": "100",
+        "MinAbundance": "12.2",
+        "MaxAbundance": "15.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Heffty Cliffs",
+        "PresenceChance": "100",
+        "MinAbundance": "5.2",
+        "MaxAbundance": "9.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Great Northern Rift",
+        "PresenceChance": "100",
+        "MinAbundance": "5.2",
+        "MaxAbundance": "11.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Great Southern Rift",
+        "PresenceChance": "100",
+        "MinAbundance": "5.2",
+        "MaxAbundance": "11.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Lesser Northern Rift",
+        "PresenceChance": "100",
+        "MinAbundance": "6.2",
+        "MaxAbundance": "10.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Ovin",
+        "BiomeName": "Vinita Fissure",
+        "PresenceChance": "100",
+        "MinAbundance": "6.2",
+        "MaxAbundance": "10.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gurdamma",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.85",
+        "MaxAbundance": "7.76",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Gurdamma",
+        "BiomeName": "Volcanoes",
+        "PresenceChance": "100",
+        "MinAbundance": "4.2",
+        "MaxAbundance": "10.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gurdamma",
+        "BiomeName": "VolcanoCraters",
+        "PresenceChance": "100",
+        "MinAbundance": "4.2",
+        "MaxAbundance": "10.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gurdamma",
+        "BiomeName": "Mount Bogue",
+        "PresenceChance": "100",
+        "MinAbundance": "7.2",
+        "MaxAbundance": "11.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Donk",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.45",
+        "MaxAbundance": "7.15",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Donk",
+        "BiomeName": "Lava Lakes",
+        "PresenceChance": "100",
+        "MinAbundance": "7.2",
+        "MaxAbundance": "9.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Donk",
+        "BiomeName": "Basalt Basins",
+        "PresenceChance": "100",
+        "MinAbundance": "3.2",
+        "MaxAbundance": "8.3",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Gup",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "3.11",
+        "MaxAbundance": "9.90",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Lapat",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "3.12",
+        "MaxAbundance": "9.43",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Noj",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.34",
+        "MaxAbundance": "4.02",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Shana",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2.65",
+        "MaxAbundance": "7.01",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kleid",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2.17",
+        "MaxAbundance": "5.95",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Merbel",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.28",
+        "MaxAbundance": "7.95",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Diros",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "4.19",
+        "MaxAbundance": "7.58",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Iomena",
+        "BiomeName": "BigBendMountains",
+        "PresenceChance": "100",
+        "MinAbundance": "3.2",
+        "MaxAbundance": "11.5",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Jut",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.21",
+        "MaxAbundance": "6.02",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Umod",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.76",
+        "MaxAbundance": "6.02",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mesma",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "2.07",
+        "MaxAbundance": "4.87",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Mesma",
+        "BiomeName": "Rocky Flats",
+        "PresenceChance": "100",
+        "MinAbundance": "3.2",
+        "MaxAbundance": "7.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mesma",
+        "BiomeName": "Rocky Slopes",
+        "PresenceChance": "100",
+        "MinAbundance": "5.2",
+        "MaxAbundance": "8.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Mesma",
+        "BiomeName": "Rocky Mountains",
+        "PresenceChance": "100",
+        "MinAbundance": "5.4",
+        "MaxAbundance": "9.1",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Omasa",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "0.68",
+        "MaxAbundance": "6.49",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Rosh",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "3.87",
+        "MaxAbundance": "10.51",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dorau",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.92",
+        "MaxAbundance": "6.58",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bis",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.12",
+        "MaxAbundance": "4.31",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "RareMetals": [
+      {
+        "PlanetName": "Bub",
+        "BiomeName": null,
+        "PresenceChance": "45",
+        "MinAbundance": "0.02",
+        "MaxAbundance": "0.35",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ],
+    "MetallicOre": [
+      {
+        "PlanetName": "Slate",
+        "BiomeName": null,
+        "PresenceChance": "1000",
+        "MinAbundance": "1",
+        "MaxAbundance": "10",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Tal",
+        "BiomeName": "Sigley Region",
+        "PresenceChance": "1000",
+        "MinAbundance": "1",
+        "MaxAbundance": "20",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Nissee",
+        "BiomeName": "Maximus Crater",
+        "PresenceChance": "1000",
+        "MinAbundance": "10",
+        "MaxAbundance": "50",
+        "kind": "BIOME_RESOURCE"
+      },
+      {
+        "PlanetName": "Verda",
+        "BiomeName": null,
+        "PresenceChance": "85",
+        "MinAbundance": "0.4",
+        "MaxAbundance": "3.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Tom",
+        "BiomeName": null,
+        "PresenceChance": "90",
+        "MinAbundance": "0.5",
+        "MaxAbundance": "4.2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Raga",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.0",
+        "MaxAbundance": "5.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Hurr",
+        "BiomeName": null,
+        "PresenceChance": "82",
+        "MinAbundance": "0.4",
+        "MaxAbundance": "3.2",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Rem",
+        "BiomeName": null,
+        "PresenceChance": "58",
+        "MinAbundance": "0.15",
+        "MaxAbundance": "1.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Flot",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1.8",
+        "MaxAbundance": "7.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Aven",
+        "BiomeName": null,
+        "PresenceChance": "70",
+        "MinAbundance": "0.3",
+        "MaxAbundance": "2.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Bub",
+        "BiomeName": null,
+        "PresenceChance": "85",
+        "MinAbundance": "0.4",
+        "MaxAbundance": "3.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Lukas",
+        "BiomeName": null,
+        "PresenceChance": "75",
+        "MinAbundance": "0.3",
+        "MaxAbundance": "2.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Dot",
+        "BiomeName": null,
+        "PresenceChance": "90",
+        "MinAbundance": "0.6",
+        "MaxAbundance": "4.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Vez",
+        "BiomeName": null,
+        "PresenceChance": "75",
+        "MinAbundance": "0.25",
+        "MaxAbundance": "2.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Arktane",
+        "BiomeName": null,
+        "PresenceChance": "85",
+        "MinAbundance": "0.4",
+        "MaxAbundance": "3.6",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Skab",
+        "BiomeName": null,
+        "PresenceChance": "100",
+        "MinAbundance": "1",
+        "MaxAbundance": "5.5",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Kol",
+        "BiomeName": null,
+        "PresenceChance": "65",
+        "MinAbundance": "0.15",
+        "MaxAbundance": "1.8",
+        "kind": "PLANETARY_RESOURCE"
+      },
+      {
+        "PlanetName": "Ixia",
+        "BiomeName": null,
+        "PresenceChance": "80",
+        "MinAbundance": "0.3",
+        "MaxAbundance": "3",
+        "kind": "PLANETARY_RESOURCE"
+      }
+    ]
+  },
+  "maps_are_reference_only": true,
+  "not_guaranteed_local_abundance": true
+}
